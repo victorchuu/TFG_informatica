@@ -1,0 +1,14 @@
+Soluciones de los metodos voraces de: I4.txt
+
+
+ProblemaGenetico(muta, cruza1, fitness, poblacion_inicial1, num_generaciones = 1000, tam_generacion = 250):
+11, 9, 27, 13, 10, 10, 9, 6, 8, 8, 10, 12, 16, 13, 7, 
+
+ProblemaGenetico(muta, cruza2, fitness, poblacion_inicial1, num_generaciones = 1000, tam_generacion = 250):
+11, 8, 25, 10, 8, 9, 10, 6, 8, 9, 9, 12, 18, 12, 6, 
+
+ProblemaGenetico(muta, cruza1, fitness, poblacion_inicial2, num_generaciones = 1000, tam_generacion = 250):
+22, 13, 37, 30, 19, 26, 12, 8, 10, 9, 13, 16, 33, 24, 9, 
+
+ProblemaGenetico(muta, cruza1, fitness, poblacion_inicial2, num_generaciones = 1000, tam_generacion = 250) :
+22, 13, 37, 30, 19, 26, 12, 8, 10, 9, 13, 16, 33, 24, 9, 

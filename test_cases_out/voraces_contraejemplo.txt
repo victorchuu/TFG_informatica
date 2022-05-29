@@ -1,0 +1,26 @@
+Soluciones de los algoritmos geneticos de: contraejemplo.txt
+
+
+Voraz hora de llegada:
+3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 
+
+Voraz hora de salida:
+2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 
+
+Voraz distancia:
+2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 
+
+Voraz numero de testimonios alcanzables:
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+
+Voraz hora de llegada persistente:
+3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 
+
+Voraz hora de salida persistente:
+3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 
+
+Voraz distancia persistente:
+3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 
+
+Voraz numero de testimonios alcanzables persistente:
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 

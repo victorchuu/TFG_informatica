@@ -1,0 +1,160 @@
+Soluciones de los metodos voraces de: I4.txt
+
+
+ProblemaGenetico(muta, cruza1, fitness, poblacion_inicial1, num_generaciones = 1000, tam_generacion = 250):
+
+Instancia 0:[9, 9, 10, 10, 9, 9, 8, 8, 8, 8]	media: 8.8	maximo: 10	minimo: 8	varianza: 0.56
+Instancia 1:[6, 5, 6, 6, 6, 6, 6, 6, 7, 6]	media: 6.0	maximo: 7	minimo: 5	varianza: 0.2
+Instancia 2:[4, 4, 4, 4, 4, 4, 4, 4, 4, 4]	media: 4.0	maximo: 4	minimo: 4	varianza: 0.0
+Instancia 3:[13, 13, 13, 13, 13, 13, 16, 12, 13, 14]	media: 13.3	maximo: 16	minimo: 12	varianza: 1.01
+Instancia 4:[6, 5, 6, 7, 7, 5, 5, 6, 6, 6]	media: 5.9	maximo: 7	minimo: 5	varianza: 0.48999999999999994
+Instancia 5:[71, 68, 67, 68, 67, 63, 68, 69, 71, 62]	media: 67.4	maximo: 71	minimo: 62	varianza: 7.839999999999999
+Instancia 6:[7, 7, 7, 7, 7, 7, 7, 8, 7, 8]	media: 7.2	maximo: 8	minimo: 7	varianza: 0.15999999999999998
+Instancia 7:[7, 7, 7, 7, 7, 7, 7, 7, 7, 7]	media: 7.0	maximo: 7	minimo: 7	varianza: 0.0
+Instancia 8:[10, 11, 13, 12, 10, 11, 11, 11, 13, 11]	media: 11.3	maximo: 13	minimo: 10	varianza: 1.0100000000000002
+Instancia 9:[23, 24, 22, 22, 23, 23, 22, 22, 23, 22]	media: 22.6	maximo: 24	minimo: 22	varianza: 0.44000000000000006
+
+
+ProblemaGenetico(muta, cruza1, fitness, poblacion_inicial1, num_generaciones = 500 , tam_generacion = 500):
+
+Instancia 0:[9, 10, 10, 8, 8, 9, 8, 9, 9, 9]	media: 8.9	maximo: 10	minimo: 8	varianza: 0.48999999999999994
+Instancia 1:[5, 6, 5, 5, 5, 6, 6, 5, 5, 5]	media: 5.3	maximo: 6	minimo: 5	varianza: 0.21000000000000002
+Instancia 2:[4, 4, 4, 5, 4, 4, 5, 4, 5, 5]	media: 4.4	maximo: 5	minimo: 4	varianza: 0.24000000000000005
+Instancia 3:[14, 13, 13, 13, 13, 18, 15, 13, 13, 15]	media: 14.0	maximo: 18	minimo: 13	varianza: 2.4
+Instancia 4:[5, 5, 5, 5, 5, 6, 6, 6, 5, 5]	media: 5.3	maximo: 6	minimo: 5	varianza: 0.21000000000000002
+Instancia 5:[63, 62, 63, 62, 63, 65, 64, 63, 67, 70]	media: 64.2	maximo: 70	minimo: 62	varianza: 5.76
+Instancia 6:[8, 7, 8, 9, 8, 8, 9, 8, 9, 7]	media: 8.1	maximo: 9	minimo: 7	varianza: 0.48999999999999994
+Instancia 7:[7, 7, 7, 7, 7, 7, 7, 7, 7, 7]	media: 7.0	maximo: 7	minimo: 7	varianza: 0.0
+Instancia 8:[12, 10, 11, 10, 12, 12, 11, 11, 12, 12]	media: 11.3	maximo: 12	minimo: 10	varianza: 0.6100000000000002
+Instancia 9:[23, 23, 24, 25, 22, 24, 24, 23, 25, 23]	media: 23.6	maximo: 25	minimo: 22	varianza: 0.8400000000000001
+
+
+ProblemaGenetico(muta, cruza1, fitness, poblacion_inicial1, num_generaciones = 250 , tam_generacion = 1000):
+
+Instancia 0:[7, 9, 7, 9, 7, 7, 8, 7, 9, 9]	media: 7.9	maximo: 9	minimo: 7	varianza: 0.89
+Instancia 1:[4, 5, 5, 5, 5, 4, 5, 5, 4, 6]	media: 4.8	maximo: 6	minimo: 4	varianza: 0.36
+Instancia 2:[4, 4, 4, 4, 4, 4, 4, 4, 4, 4]	media: 4.0	maximo: 4	minimo: 4	varianza: 0.0
+Instancia 3:[13, 12, 15, 13, 12, 11, 12, 12, 12, 12]	media: 12.4	maximo: 15	minimo: 11	varianza: 1.0399999999999998
+Instancia 4:[5, 5, 4, 5, 4, 4, 5, 4, 4, 5]	media: 4.5	maximo: 5	minimo: 4	varianza: 0.25
+Instancia 5:[62, 62, 62, 61, 62, 61, 63, 67, 61, 62]	media: 62.3	maximo: 67	minimo: 61	varianza: 2.8100000000000005
+Instancia 6:[9, 7, 7, 8, 6, 8, 5, 9, 7, 8]	media: 7.4	maximo: 9	minimo: 5	varianza: 1.44
+Instancia 7:[7, 7, 7, 7, 7, 7, 7, 7, 7, 7]	media: 7.0	maximo: 7	minimo: 7	varianza: 0.0
+Instancia 8:[8, 8, 12, 9, 9, 9, 9, 9, 10, 10]	media: 9.3	maximo: 12	minimo: 8	varianza: 1.2099999999999995
+Instancia 9:[22, 21, 23, 24, 21, 23, 22, 21, 23, 21]	media: 22.1	maximo: 24	minimo: 21	varianza: 1.0899999999999999
+
+ProblemaGenetico(muta, cruza1, fitness, poblacion_inicial1, num_generaciones = 1000, tam_generacion = 250, probabilidad_mutar = 0.2):
+
+Instancia 0:[10, 11, 10, 9, 9, 8, 9, 8, 9, 9]	media: 9.2	maximo: 11	minimo: 8	varianza: 0.7600000000000002
+Instancia 1:[5, 5, 5, 6, 6, 6, 5, 6, 5, 6]	media: 5.5	maximo: 6	minimo: 5	varianza: 0.25
+Instancia 2:[4, 4, 4, 4, 4, 5, 4, 4, 4, 4]	media: 4.1	maximo: 5	minimo: 4	varianza: 0.08999999999999998
+Instancia 3:[13, 13, 15, 13, 14, 18, 15, 15, 13, 16]	media: 14.5	maximo: 18	minimo: 13	varianza: 2.45
+Instancia 4:[7, 7, 6, 6, 5, 6, 6, 7, 6, 6]	media: 6.2	maximo: 7	minimo: 5	varianza: 0.36
+Instancia 5:[72, 67, 66, 65, 67, 63, 63, 62, 67, 66]	media: 65.8	maximo: 72	minimo: 62	varianza: 7.359999999999999
+Instancia 6:[8, 7, 8, 8, 8, 8, 7, 10, 7, 7]	media: 7.8	maximo: 10	minimo: 7	varianza: 0.76
+Instancia 7:[7, 7, 7, 7, 7, 7, 7, 7, 7, 7]	media: 7.0	maximo: 7	minimo: 7	varianza: 0.0
+Instancia 8:[10, 12, 11, 12, 12, 12, 11, 13, 11, 10]	media: 11.4	maximo: 13	minimo: 10	varianza: 0.8399999999999999
+Instancia 9:[25, 24, 25, 23, 24, 23, 24, 23, 24, 23]	media: 23.8	maximo: 25	minimo: 23	varianza: 0.5600000000000002
+
+ProblemaGenetico(muta, cruza1, fitness, poblacion_inicial1, num_generaciones = 500 , tam_generacion = 500, probabilidad_mutar = 0.2):
+
+Instancia 0:[9, 8, 10, 9, 10, 9, 9, 8, 10, 10]	media: 9.2	maximo: 10	minimo: 8	varianza: 0.56
+Instancia 1:[6, 6, 5, 6, 6, 6, 7, 5, 6, 6]	media: 5.9	maximo: 7	minimo: 5	varianza: 0.2899999999999999
+Instancia 2:[4, 4, 4, 4, 5, 4, 4, 5, 4, 4]	media: 4.2	maximo: 5	minimo: 4	varianza: 0.15999999999999998
+Instancia 3:[15, 14, 15, 15, 16, 13, 16, 15, 13, 15]	media: 14.7	maximo: 16	minimo: 13	varianza: 1.01
+Instancia 4:[6, 6, 5, 6, 5, 8, 6, 6, 7, 7]	media: 6.2	maximo: 8	minimo: 5	varianza: 0.76
+Instancia 5:[68, 70, 62, 66, 76, 66, 67, 67, 67, 67]	media: 67.6	maximo: 76	minimo: 62	varianza: 11.440000000000003
+Instancia 6:[8, 8, 8, 9, 7, 7, 9, 8, 9, 8]	media: 8.1	maximo: 9	minimo: 7	varianza: 0.48999999999999994
+Instancia 7:[7, 7, 7, 7, 7, 7, 7, 7, 7, 7]	media: 7.0	maximo: 7	minimo: 7	varianza: 0.0
+Instancia 8:[11, 10, 12, 11, 11, 10, 11, 12, 12, 11]	media: 11.1	maximo: 12	minimo: 10	varianza: 0.48999999999999994
+Instancia 9:[24, 23, 23, 23, 23, 23, 23, 23, 23, 24]	media: 23.2	maximo: 24	minimo: 23	varianza: 0.15999999999999998
+
+ProblemaGenetico(muta, cruza1, fitness, poblacion_inicial1, num_generaciones = 250 , tam_generacion = 1000, probabilidad_mutar = 0.2):
+
+Instancia 0:[9, 8, 8, 8, 9, 8, 9, 8, 7, 8]	media: 8.2	maximo: 9	minimo: 7	varianza: 0.36
+Instancia 1:[5, 5, 5, 5, 5, 5, 6, 5, 5, 5]	media: 5.1	maximo: 6	minimo: 5	varianza: 0.09
+Instancia 2:[4, 4, 4, 4, 4, 5, 4, 4, 4, 4]	media: 4.1	maximo: 5	minimo: 4	varianza: 0.08999999999999998
+Instancia 3:[14, 11, 13, 12, 13, 11, 12, 11, 12, 13]	media: 12.2	maximo: 14	minimo: 11	varianza: 0.96
+Instancia 4:[5, 6, 6, 5, 6, 6, 5, 5, 5, 4]	media: 5.3	maximo: 6	minimo: 4	varianza: 0.41
+Instancia 5:[62, 63, 62, 62, 73, 63, 62, 62, 68, 62]	media: 63.9	maximo: 73	minimo: 62	varianza: 12.290000000000003
+Instancia 6:[8, 7, 6, 8, 6, 7, 7, 7, 7, 7]	media: 7.0	maximo: 8	minimo: 6	varianza: 0.4
+Instancia 7:[7, 7, 7, 7, 7, 7, 7, 7, 7, 7]	media: 7.0	maximo: 7	minimo: 7	varianza: 0.0
+Instancia 8:[10, 11, 11, 10, 11, 11, 9, 10, 10, 10]	media: 10.3	maximo: 11	minimo: 9	varianza: 0.41000000000000003
+Instancia 9:[24, 25, 23, 25, 22, 23, 22, 23, 23, 23]	media: 23.3	maximo: 25	minimo: 22	varianza: 1.0099999999999996
+
+ProblemaGenetico(muta, cruza2, fitness, poblacion_inicial1, num_generaciones = 1000, tam_generacion = 250):
+
+Instancia 0:[9, 8, 9, 8, 9, 7, 10, 9, 9, 9]	media: 8.7	maximo: 10	minimo: 7	varianza: 0.6100000000000001
+Instancia 1:[5, 5, 5, 5, 6, 5, 5, 5, 5, 5]	media: 5.1	maximo: 6	minimo: 5	varianza: 0.08999999999999998
+Instancia 2:[4, 5, 4, 4, 5, 4, 4, 4, 4, 5]	media: 4.3	maximo: 5	minimo: 4	varianza: 0.21000000000000002
+Instancia 3:[13, 11, 12, 16, 13, 11, 12, 13, 13, 10]	media: 12.4	maximo: 16	minimo: 10	varianza: 2.44
+Instancia 4:[6, 6, 6, 6, 6, 6, 5, 6, 6, 7]	media: 6.0	maximo: 7	minimo: 5	varianza: 0.2
+Instancia 5:[63, 63, 63, 62, 73, 65, 63, 64, 61, 78]	media: 65.5	maximo: 78	minimo: 61	varianza: 27.25
+Instancia 6:[8, 7, 8, 7, 8, 8, 8, 7, 9, 7]	media: 7.7	maximo: 9	minimo: 7	varianza: 0.41
+Instancia 7:[7, 7, 7, 7, 7, 7, 7, 7, 7, 7]	media: 7.0	maximo: 7	minimo: 7	varianza: 0.0
+Instancia 8:[10, 11, 11, 11, 10, 11, 11, 12, 10, 12]	media: 10.9	maximo: 12	minimo: 10	varianza: 0.48999999999999994
+Instancia 9:[23, 24, 23, 25, 23, 23, 23, 24, 22, 24]	media: 23.4	maximo: 25	minimo: 22	varianza: 0.6399999999999999
+
+ProblemaGenetico(muta, cruza2, fitness, poblacion_inicial1, num_generaciones = 500 , tam_generacion = 500):
+
+Instancia 0:[10, 8, 10, 10, 8, 10, 10, 8, 8, 9]	media: 9.1	maximo: 10	minimo: 8	varianza: 0.89
+Instancia 1:[5, 5, 5, 5, 5, 5, 6, 5, 5, 6]	media: 5.2	maximo: 6	minimo: 5	varianza: 0.15999999999999998
+Instancia 2:[4, 4, 4, 4, 5, 5, 5, 4, 4, 4]	media: 4.3	maximo: 5	minimo: 4	varianza: 0.21000000000000002
+Instancia 3:[16, 13, 16, 17, 13, 13, 13, 14, 12, 12]	media: 13.9	maximo: 17	minimo: 12	varianza: 2.8900000000000006
+Instancia 4:[6, 6, 6, 7, 6, 6, 6, 5, 6, 5]	media: 5.9	maximo: 7	minimo: 5	varianza: 0.29
+Instancia 5:[66, 64, 63, 63, 66, 63, 65, 66, 66, 65]	media: 64.7	maximo: 66	minimo: 63	varianza: 1.61
+Instancia 6:[7, 7, 8, 7, 8, 8, 8, 8, 8, 8]	media: 7.7	maximo: 8	minimo: 7	varianza: 0.21000000000000002
+Instancia 7:[7, 7, 7, 7, 7, 7, 7, 7, 7, 7]	media: 7.0	maximo: 7	minimo: 7	varianza: 0.0
+Instancia 8:[10, 10, 11, 12, 11, 10, 10, 11, 12, 10]	media: 10.7	maximo: 12	minimo: 10	varianza: 0.6100000000000001
+Instancia 9:[23, 23, 22, 23, 23, 24, 22, 23, 25, 24]	media: 23.2	maximo: 25	minimo: 22	varianza: 0.76
+
+ProblemaGenetico(muta, cruza2, fitness, poblacion_inicial1, num_generaciones = 250 , tam_generacion = 1000):
+
+Instancia 0:[9, 7, 7, 7, 8, 8, 10, 8, 7, 9]	media: 8.0	maximo: 10	minimo: 7	varianza: 1.0
+Instancia 1:[4, 5, 5, 4, 5, 6, 5, 5, 4, 5]	media: 4.8	maximo: 6	minimo: 4	varianza: 0.36
+Instancia 2:[4, 4, 4, 4, 4, 4, 4, 4, 4, 4]	media: 4.0	maximo: 4	minimo: 4	varianza: 0.0
+Instancia 3:[12, 13, 12, 13, 11, 10, 13, 16, 13, 11]	media: 12.4	maximo: 16	minimo: 10	varianza: 2.44
+Instancia 4:[6, 5, 5, 6, 6, 6, 4, 5, 5, 6]	media: 5.4	maximo: 6	minimo: 4	varianza: 0.44000000000000006
+Instancia 5:[61, 61, 61, 62, 61, 63, 62, 63, 62, 62]	media: 61.8	maximo: 63	minimo: 61	varianza: 0.5599999999999998
+Instancia 6:[7, 6, 7, 7, 9, 7, 8, 7, 9, 6]	media: 7.3	maximo: 9	minimo: 6	varianza: 1.01
+Instancia 7:[7, 7, 7, 7, 7, 7, 7, 7, 7, 7]	media: 7.0	maximo: 7	minimo: 7	varianza: 0.0
+Instancia 8:[10, 9, 10, 9, 12, 9, 9, 11, 10, 8]	media: 9.7	maximo: 12	minimo: 8	varianza: 1.21
+Instancia 9:[22, 22, 22, 23, 21, 23, 21, 23, 21, 21]	media: 21.9	maximo: 23	minimo: 21	varianza: 0.6899999999999998
+
+ProblemaGenetico(muta, cruza2, fitness, poblacion_inicial1, num_generaciones = 1000, tam_generacion = 250, probabilidad_mutar = 0.2):
+
+Instancia 0:[10, 9, 9, 8, 11, 9, 9, 9, 9, 9]	media: 9.2	maximo: 11	minimo: 8	varianza: 0.5600000000000002
+Instancia 1:[5, 5, 5, 5, 5, 5, 5, 5, 5, 4]	media: 4.9	maximo: 5	minimo: 4	varianza: 0.09
+Instancia 2:[5, 4, 4, 4, 4, 4, 4, 4, 4, 4]	media: 4.1	maximo: 5	minimo: 4	varianza: 0.08999999999999997
+Instancia 3:[12, 12, 12, 12, 12, 14, 13, 12, 12, 14]	media: 12.5	maximo: 14	minimo: 12	varianza: 0.65
+Instancia 4:[6, 6, 6, 5, 6, 5, 7, 6, 6, 6]	media: 5.9	maximo: 7	minimo: 5	varianza: 0.2899999999999999
+Instancia 5:[66, 63, 63, 64, 65, 70, 63, 65, 65, 65]	media: 64.9	maximo: 70	minimo: 63	varianza: 3.8899999999999992
+Instancia 6:[7, 8, 7, 7, 9, 7, 8, 9, 9, 9]	media: 8.0	maximo: 9	minimo: 7	varianza: 0.8
+Instancia 7:[7, 7, 7, 7, 7, 7, 7, 7, 7, 7]	media: 7.0	maximo: 7	minimo: 7	varianza: 0.0
+Instancia 8:[12, 9, 11, 12, 10, 10, 12, 10, 11, 13]	media: 11.0	maximo: 13	minimo: 9	varianza: 1.4
+Instancia 9:[24, 23, 23, 23, 24, 23, 24, 23, 23, 23]	media: 23.3	maximo: 24	minimo: 23	varianza: 0.21000000000000002
+
+ProblemaGenetico(muta, cruza2, fitness, poblacion_inicial1, num_generaciones = 500 , tam_generacion = 500, probabilidad_mutar = 0.2):
+
+Instancia 0:[9, 9, 9, 10, 9, 9, 10, 10, 11, 9]	media: 9.5	maximo: 11	minimo: 9	varianza: 0.45
+Instancia 1:[5, 5, 5, 5, 5, 7, 6, 5, 5, 5]	media: 5.3	maximo: 7	minimo: 5	varianza: 0.41
+Instancia 2:[4, 5, 5, 4, 4, 4, 4, 4, 4, 4]	media: 4.2	maximo: 5	minimo: 4	varianza: 0.15999999999999998
+Instancia 3:[14, 13, 17, 12, 13, 14, 14, 13, 17, 12]	media: 13.9	maximo: 17	minimo: 12	varianza: 2.8899999999999997
+Instancia 4:[7, 6, 7, 8, 6, 6, 5, 6, 7, 5]	media: 6.3	maximo: 8	minimo: 5	varianza: 0.8099999999999999
+Instancia 5:[66, 68, 67, 72, 74, 65, 67, 63, 65, 64]	media: 67.1	maximo: 74	minimo: 63	varianza: 10.890000000000004
+Instancia 6:[9, 9, 8, 8, 9, 10, 8, 7, 8, 7]	media: 8.3	maximo: 10	minimo: 7	varianza: 0.8100000000000002
+Instancia 7:[7, 7, 7, 7, 7, 7, 7, 7, 7, 7]	media: 7.0	maximo: 7	minimo: 7	varianza: 0.0
+Instancia 8:[12, 11, 10, 11, 11, 10, 12, 12, 11, 13]	media: 11.3	maximo: 13	minimo: 10	varianza: 0.8100000000000002
+Instancia 9:[24, 23, 23, 24, 23, 23, 23, 23, 23, 24]	media: 23.3	maximo: 24	minimo: 23	varianza: 0.21000000000000005
+
+ProblemaGenetico(muta, cruza2, fitness, poblacion_inicial1, num_generaciones = 250 , tam_generacion = 1000, probabilidad_mutar = 0.2):
+
+Instancia 0:[10, 10, 7, 8, 8, 9, 7, 8, 7, 7]	media: 8.1	maximo: 10	minimo: 7	varianza: 1.2899999999999998
+Instancia 1:[4, 4, 4, 5, 5, 6, 4, 5, 6, 5]	media: 4.8	maximo: 6	minimo: 4	varianza: 0.5599999999999999
+Instancia 2:[4, 4, 4, 4, 4, 4, 4, 4, 4, 4]	media: 4.0	maximo: 4	minimo: 4	varianza: 0.0
+Instancia 3:[9, 12, 10, 9, 12, 11, 10, 9, 11, 12]	media: 10.5	maximo: 12	minimo: 9	varianza: 1.45
+Instancia 4:[5, 6, 5, 6, 6, 5, 6, 5, 5, 5]	media: 5.4	maximo: 6	minimo: 5	varianza: 0.24
+Instancia 5:[65, 62, 63, 61, 62, 73, 62, 62, 67, 63]	media: 64.0	maximo: 73	minimo: 61	varianza: 11.8
+Instancia 6:[7, 6, 8, 7, 8, 7, 8, 7, 7, 8]	media: 7.3	maximo: 8	minimo: 6	varianza: 0.41
+Instancia 7:[7, 7, 7, 7, 7, 7, 7, 7, 7, 7]	media: 7.0	maximo: 7	minimo: 7	varianza: 0.0
+Instancia 8:[10, 10, 9, 10, 9, 10, 9, 12, 10, 10]	media: 9.9	maximo: 12	minimo: 9	varianza: 0.69
+Instancia 9:[23, 23, 23, 23, 25, 21, 23, 23, 22, 24]	media: 23.0	maximo: 25	minimo: 21	varianza: 1.0

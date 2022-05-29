@@ -1,0 +1,14 @@
+Soluciones de los metodos voraces de: contraejemplo.txt
+
+
+ProblemaGenetico(muta, cruza1, fitness, poblacion_inicial1, num_generaciones = 1000, tam_generacion = 250):
+5, 4, 7, 8, 9, 5, 5, 12, 4, 12, 
+
+ProblemaGenetico(muta, cruza2, fitness, poblacion_inicial1, num_generaciones = 1000, tam_generacion = 250):
+5, 6, 6, 7, 9, 4, 9, 4, 10, 4, 
+
+ProblemaGenetico(muta, cruza1, fitness, poblacion_inicial2, num_generaciones = 1000, tam_generacion = 250):
+5, 6, 7, 4, 7, 5, 6, 7, 5, 5, 
+
+ProblemaGenetico(muta, cruza1, fitness, poblacion_inicial2, num_generaciones = 1000, tam_generacion = 250) :
+5, 5, 6, 8, 6, 6, 5, 5, 4, 5, 

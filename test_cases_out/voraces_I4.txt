@@ -1,0 +1,26 @@
+Soluciones de los algoritmos geneticos de: I4.txt
+
+
+Voraz hora de llegada:
+15, 6, 22, 24, 18, 10, 9, 4, 10, 7, 8, 12, 26, 14, 8, 
+
+Voraz hora de salida:
+21, 13, 37, 30, 16, 13, 5, 2, 10, 5, 10, 11, 32, 22, 7, 
+
+Voraz distancia:
+21, 11, 37, 27, 18, 10, 6, 2, 10, 7, 12, 15, 32, 23, 7, 
+
+Voraz numero de testimonios alcanzables:
+4, 2, 19, 2, 4, 2, 5, 2, 5, 2, 4, 3, 7, 8, 2, 
+
+Voraz hora de llegada persistente:
+18, 10, 26, 26, 19, 16, 9, 8, 10, 9, 12, 13, 31, 16, 8, 
+
+Voraz hora de salida persistente:
+22, 13, 37, 30, 16, 26, 12, 8, 10, 6, 13, 14, 33, 23, 9, 
+
+Voraz distancia persistente:
+21, 12, 37, 27, 18, 23, 12, 8, 10, 7, 13, 16, 33, 24, 7, 
+
+Voraz numero de testimonios alcanzables persistente:
+8, 6, 19, 4, 6, 6, 9, 4, 5, 4, 6, 9, 8, 8, 5, 
